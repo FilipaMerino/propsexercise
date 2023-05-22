@@ -19,22 +19,27 @@ body {
   border-radius: 25px;
   position: relative;
   padding: 25px 15px;
-  background-color: #D6E8DB;
+  background-color: #F9F5EB;
   margin: 50px 0;
   height: 200px;
   box-shadow: 0 2px 5px #ccc;
   text-align: left;
+  box-shadow: 10px 10px 55px -28px rgba(0,0,0,0.75);
+
 }
 
 .top {
+  align-items: center;
   border-radius: 25px 25px 0 0;
   height: 100px;
   width: 100%;
-  background-color: #C1D0B5;
+  background-color: #E7AB9A;
   position: absolute;
   top: 0;
   left: 0;
   display: flex;
+  justify-content: space-around;
+
 }
 
 .name {
@@ -45,16 +50,21 @@ body {
   margin: 10% 20px 0;
 }
 
+
 .card img {
-  margin: 30px 20px 0 0;
+  display: flex;
+  align-items: center;
+
+  border-radius: 50%;
+  border: 3px solid #fff;
+  width: 60px;
+  height: 60px;
+  padding: 5px;
+  object-fit: cover;
+
 }
 
-.circle-img {
-  border-radius: 50%;
-  border: 7px solid #fff;
-  width: 120px;
-  height: 120px;
-}
+
 
 .bottom {
   margin-top: 120px;
@@ -63,4 +73,10 @@ body {
 .info {
   margin: 20px 0;
   color: #D6E8DB;
+}
+
+
+.card h2{
+  display: flex;
+  align-items: center;
 }

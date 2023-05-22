@@ -5,8 +5,6 @@ import React from 'react'
 function Card(props){
 
   console.log(props)
-
-
   return(
     <div className='card'>
       <div className='top'>
@@ -22,7 +20,6 @@ function Card(props){
     </div>
   )
 };
-
 
 
 export default Card;
