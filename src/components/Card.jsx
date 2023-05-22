@@ -9,7 +9,6 @@ function Card(props){
 
   return(
     <div className='card'>
-
       <div className='top'>
         <h2>{props.name}</h2>
         <img src={props.img}/>
