@@ -64,7 +64,11 @@ body {
 
 }
 
-
+.myAvatar{
+  display: flex;
+  justify-content: center!important;
+  width: 10px;
+}
 
 .bottom {
   margin-top: 120px;
